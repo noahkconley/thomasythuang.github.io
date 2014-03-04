@@ -40,7 +40,7 @@ var paneraWindow =  new google.maps.InfoWindow({
     content: paneraInfoWindowString
 });
 
-if(document.cookie != ""){
+if(document.cookie === 'paneracookie=test'){
   var marker = new google.maps.Marker({
       position: paneraBreadLatLng,
       map: map,
