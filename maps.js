@@ -90,19 +90,25 @@ function initialize() {
       title: "Coldstone Creamery"
     });
 
-    var H = window.innerHeight - 134;
+    var H = window.innerHeight - 109;
     H = H+"px";
     document.getElementById("map-canvas").style.height=H;
-
+    
     //click listener for opening panera info window
     google.maps.event.addListener(marker, 'click', function(){
         paneraWindow.open(map,marker);
+        andysWindow.close();
+        coldstoneWindow.close();
     });
     google.maps.event.addListener(marker1, 'click', function(){
         andysWindow.open(map,marker1);
+        paneraWindow.close();
+        coldstoneWindow.close();
     });
     google.maps.event.addListener(marker2, 'click', function(){
         coldstoneWindow.open(map,marker2);
+        paneraWindow.close();
+        andysWindow.close();
     });
 }
 

@@ -9,7 +9,7 @@ body{
 
 .top {
     text-align:center;
-    margin-bottom:20px;
+    margin-bottom:10px;
     background-image: -webkit-gradient(
 	linear,
 	left top,
@@ -24,9 +24,18 @@ body{
     background-image: linear-gradient(to bottom, #7D0099 0%, #40004D 100%);
 }
 
+.head-text{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 .bottom {
 	background-color: #E8D4E3;
     text-align:center;
+}
+
+.icon{
+    height:35px;
 }
 
 .container{
@@ -69,7 +78,7 @@ a.linka { color: #520063;}
     color:white;
     font-size:30px;
     font-family:'Roboto', Helvetica, Arial, sans-serif;
-    font-weight:100;
+    font-weight:300;
 }
 
 .black{
@@ -171,7 +180,7 @@ body{
 }
 
 .indent{
-    margin-left:5px;
+    padding-left:20px;;
     color:#989898 ;
     font-size: 12px;
 }
@@ -183,8 +192,4 @@ body{
 #set{
     margin-top:5px;
     margin-bottom:5px;
-}
-
-.brand{
-    margin-right:10px;
 }
