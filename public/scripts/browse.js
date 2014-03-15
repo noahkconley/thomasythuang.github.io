@@ -1,10 +1,7 @@
 $(document).ready(function() {
-    
-    jQuery.support.cors = true;
-
 	$.ajax({
 		url: 'http://www.northwestern.edu/uservices/wildcard/advantage_discounts/a_to_z/index.html',
-		cache: true,
+		cache: false,
 		success: function(data) {
 			var k = 0;
 			for(var i = 0; i < 27; i++) {
