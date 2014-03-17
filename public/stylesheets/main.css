@@ -201,3 +201,25 @@ body{
 #favlist h5{
     max-height: 30px;
 }
+
+.desc{
+    padding:0px;   
+}
+
+.deleteBox{
+    color:"white";
+    background-color: #ff0000;
+}
+
+#search-btn{
+    margin-right:0px;
+}
+
+#edit-btn{
+    margin-top:12px;
+    text-align:right;
+}
+
+.bottom div a{
+    padding:0px;   
+}
